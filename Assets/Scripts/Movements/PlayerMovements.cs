@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float walkSpeed;
     public float normalSpeed = 12f;
-    public float sprintSpeed = 50f;
+    public float sprintSpeed = 25f;
 
     bool isSprinting = false;
     public float gravity = -9.81f * 2;

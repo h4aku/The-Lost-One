@@ -15,11 +15,11 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.41176474, g: 0.13725491, b: 0.078431375, a: 1}
-  m_FogMode: 3
+  m_FogColor: {r: 0.3962264, g: 0.13918498, b: 0.08410467, a: 1}
+  m_FogMode: 1
   m_FogDensity: 0.01
   m_LinearFogStart: 0
-  m_LinearFogEnd: 300
+  m_LinearFogEnd: 400
   m_AmbientSkyColor: {r: 0.6886792, g: 0.6529459, b: 0.6529459, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
@@ -33,7 +33,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 16
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -494,8 +494,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1365635310}
   - component: {fileID: 1365635309}
-  - component: {fileID: 1365635312}
   - component: {fileID: 1365635311}
+  - component: {fileID: 1365635312}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -538,7 +538,7 @@ Transform:
   m_GameObject: {fileID: 1365635308}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.265, y: 3.372, z: 1.797}
+  m_LocalPosition: {x: 148, y: 63.5, z: 112}
   m_LocalScale: {x: 1, y: 1.4287, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -575,7 +575,7 @@ MonoBehaviour:
   controller: {fileID: 1365635309}
   walkSpeed: 0
   normalSpeed: 12
-  sprintSpeed: 50
+  sprintSpeed: 25
   gravity: -19.62
   jumpHeight: 3
   groundCheck: {fileID: 1607594849}
@@ -608,7 +608,7 @@ Transform:
   m_GameObject: {fileID: 1607594848}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.111, z: 0}
+  m_LocalPosition: {x: 0, y: -1.077, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
